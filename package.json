@@ -1,11 +1,11 @@
 {
-  "name": "eth-lightwallet",
-  "version": "2.3.2",
-  "description": "A lightweight ethereum javascript wallet.",
+  "name": "browserless-eth-lightwallet",
+  "version": "0.0.1",
+  "description": "A fork of eth-lightwallet to allow browserless apps to use this client",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ConsenSys/eth-lightwallet.git"
+    "url": "https://github.com/platramos/eth-lightwallet"
   },
   "scripts": {
     "build-js": "browserify index.js --s lightwallet | uglifyjs -c > dist/lightwallet.min.js",
@@ -18,7 +18,8 @@
     "blockchain",
     "transactions",
     "contracts",
-    "wallet"
+    "wallet",
+    "browserless"
   ],
   "contributors": [
     {
